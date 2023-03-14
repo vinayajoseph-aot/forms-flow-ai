@@ -197,10 +197,6 @@ const View = React.memo((props) => {
           })
         );
       }
-      //show success toaster only, since draft is already created using draftCreateMethod.
-      else {
-        toast.success(t("Submission saved to draft."));
-      }
     }
   };
 
